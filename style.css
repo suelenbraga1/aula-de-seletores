@@ -4,6 +4,10 @@
         body {
             margin:0px; /* Margem Externa */
             padding:0px; /*Margem Interna */
+            /*função de degrade*/
+            background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),#303030;
+            background-repeat: no-repeat;
+
         }
      /* Menun de Navegação Principal */
         #principal {
@@ -51,8 +55,7 @@
             box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25); /* quantidade de sombra na horizontal, vertical */
             cursor: pointer;
 
-
-        }
+     }
 
 
    
